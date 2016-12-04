@@ -2,8 +2,8 @@
 //  ViewController.m
 //  Demo
 //
-//  Created by 范子阳 on 2016/12/3.
-//  Copyright © 2016年 范子阳. All rights reserved.
+//  Created by 万传超 on 2016/12/3.
+//  Copyright © 2016年 万传超. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"lala");
+    [LocationManager SharedManager];
 }
 
 

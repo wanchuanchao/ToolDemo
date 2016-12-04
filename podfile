@@ -2,6 +2,9 @@ platform :ios, '8.0'
 
 target ‘Demo’ do
 
-pod 'AFNetworking', '~> 3.0'
-
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'FMDB'
+pod 'FMDBMigrationManager'
+pod 'CocoaAsyncSocket'
 end
