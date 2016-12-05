@@ -42,7 +42,7 @@
 		63C5A6871DF4548E003F02EE /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LocationManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		63C5A6881DF4548E003F02EE /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LocationManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		63C5A68A1DF45525003F02EE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		63D3122A1DF3F803009A8B2C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PrefixHeader.pch; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		63D3122A1DF3F803009A8B2C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		63D3122B1DF3F8E7009A8B2C /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DBHelper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		63D3122C1DF3F8E7009A8B2C /* DBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DBHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		63D3122E1DF3F914009A8B2C /* NetHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetHelper.h; sourceTree = "<group>"; };
@@ -108,7 +108,6 @@
 				633DCD881DF2E2810021335C /* AppDelegate.m */,
 				633DCD8A1DF2E2810021335C /* ViewController.h */,
 				633DCD8B1DF2E2810021335C /* ViewController.m */,
-				63D3122A1DF3F803009A8B2C /* PrefixHeader.pch */,
 				633DCD841DF2E2810021335C /* Supporting Files */,
 			);
 			path = Demo;
@@ -147,6 +146,7 @@
 		63D312261DF3F762009A8B2C /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				63D3122A1DF3F803009A8B2C /* PrefixHeader.pch */,
 				639778811DF4110C004C2C98 /* APIConfig.h */,
 				63C5A6861DF45469003F02EE /* LocationManager */,
 				63D312271DF3F762009A8B2C /* DBHelper */,
